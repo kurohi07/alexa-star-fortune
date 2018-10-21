@@ -1,0 +1,114 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "サンプル星占い",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HoroscopeIntent",
+                    "slots": [
+                        {
+                            "name": "StarSign",
+                            "type": "StarSign"
+                        }
+                    ],
+                    "samples": [
+                        "{StarSign} の運勢",
+                        "{StarSign} の運勢を占って",
+                        "{StarSign} の運勢は",
+                        "{StarSign} を占って"
+                    ]
+                },
+                {
+                    "name": "LuckyColorIntent",
+                    "samples": [
+                        "ラッキーカラーを教えて",
+                        "ラッキーカラーは"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "StarSign",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "おひつじ座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "おうし座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ふたご座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "かに座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "しし座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "おとめ座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "てんびん座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "さそり座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "いて座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "やぎ座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "みずがめ座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "うお座"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

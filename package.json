@@ -1,0 +1,9 @@
+{
+  "name": "ask-sdk-v2",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "ask-sdk-core": "^2.1.0",
+    "ask-sdk-model": "^1.7.1"
+  }
+}
